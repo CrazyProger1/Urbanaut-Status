@@ -7,7 +7,7 @@ const CURRENT_STATUS: Status = "MAINTENANCE";
 
 function App() {
   return (
-    <div className="dark bg-background">
+    <div className="dark bg-background select-none">
       {CURRENT_STATUS === "WORKING" ? <WorkingPage /> : <MaintenancePage />}
     </div>
   );
