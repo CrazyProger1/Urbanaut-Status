@@ -1,81 +1,30 @@
-# Urbanaut Status Page
+# Urbanaut-Status
 
-Status page for [Urbanaut.club](https://urbanaut.club) - a social platform for urban explorers, diggers, and extreme tourism enthusiasts.
+<div align="center">
+  <img src="public/web-app-manifest-512x512.png" alt="Urbanaut Logo" width="200" height="200" style="border-radius: 10%;">
+</div>
 
-## Features
+---
 
-- **Two status modes**: WORKING and MAINTENANCE
-- **Beautiful animations** powered by Framer Motion
-- **Responsive design** with Tailwind CSS
-- **Dark mode** matching the main site's aesthetic
-- **Urbanaut branding** with logo and consistent styling
+Status page for [urbanaut.club](https://urbanaut.club) - social network for urban explorers, stalkers, diggers and so on.
 
-## Status Modes
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CrazyProger1/Urbanaut-Status)
+[![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/urbanaut/frontend/status)
 
-### WORKING
-Displayed when the main site is operational and running smoothly.
+## Stack
 
-### MAINTENANCE
-Displayed when the site is undergoing scheduled maintenance or updates.
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
 
-## Changing Status
+## Status
 
-To switch between statuses, edit the `CURRENT_STATUS` constant in `src/App.tsx`:
+**V0.0.2 - Active Development 🟢**
 
-```tsx
-const CURRENT_STATUS: Status = "WORKING"; // or "MAINTENANCE"
-```
+## License
 
-## Development
-
-```bash
-# Install dependencies
-pnpm install
-
-# Run development server
-pnpm dev
-
-# Build for production
-pnpm build
-
-# Preview production build
-pnpm preview
-
-# Lint and fix code
-pnpm clean
-```
-
-## Tech Stack
-
-- React 19
-- TypeScript
-- Vite
-- Tailwind CSS 4
-- Framer Motion
-- Lucide React (icons)
-
-## Project Structure
-
-```
-src/
-├── components/
-│   └── pages/
-│       ├── WorkingPage.tsx
-│       ├── MaintenancePage.tsx
-│       └── index.ts
-├── styles/
-│   ├── globals.css
-│   └── index.ts
-├── lib/
-│   └── utils.ts
-├── App.tsx
-└── main.tsx
-```
-
-## Styling
-
-The project uses the same design system as the main Urbanaut website:
-- Consistent color scheme with CSS custom properties
-- Same typography and spacing
-- Unified component styling with Tailwind CSS
-- Shared design tokens (radius, shadows, etc.)
+This software is developed under the Urbanaut License. See the bundled [LICENSE](LICENSE) file for details.
